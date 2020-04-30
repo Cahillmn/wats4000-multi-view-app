@@ -1,11 +1,11 @@
 <template>
   <div class="home">
     <div class="form-container" v-show="showForm">
-      <!-- TODO: Modulate display of the .form-container using v-show and the showForm variable. -->
+      
       <h1>Join the Web Developers Club!</h1>
       <p>Sign up to access our special, secret page. Just create an account and answer a brief survey.</p>
 
-      <p class="error" v-show="showError">
+      <p class="error" v-show="showError">Please check the information you have entered. Be sure to fill in all fields.</p>
 
       <form v-on:submit.prevent="validateForm">
 
