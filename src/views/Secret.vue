@@ -4,7 +4,7 @@
       <h1>{{ message }}</h1>
     </center>
 <center><img alt="Corgis" src="../assets/Corgis.jpg"></center>
-    <!--<img src="/src/assets/Hamburger.jpg" alt="Corgis">-->
+    
   </div>
 </template>
 
